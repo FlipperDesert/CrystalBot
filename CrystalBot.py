@@ -1,10 +1,10 @@
 import tweepy
 import time
 
-auth = tweepy.OAuthHandler('5oFXrjGOac1JrVFDhvWGsC2rJ','ChlfIgYafE1V5pJ79fRsAzJqQQbqn6l0FoqHaKGTCa1W5ti8JS')
+auth = tweepy.OAuthHandler('INSERT KEY HERE','INSERT KEY HERE')
 
-auth.set_access_token('1318645824751083521-5fJGTOUwhKe8yVrmr4Uw5z8a4RVxqy',
-'UD9U3faPKZ0uUCrkM3Lx4ixayfmQXWgjoXzUShkaQI82j')
+auth.set_access_token('INSERT KEY HERE',
+'INSERT KEY HERE')
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
